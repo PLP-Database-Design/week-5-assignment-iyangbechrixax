@@ -25,7 +25,7 @@ db.connect((err) => {
 });
 
 // listen to the server
-const PORT = 3038;
+const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
